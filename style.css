@@ -1,0 +1,240 @@
+body{
+  background-color: black;
+  color: white;
+}
+main{
+  min-height: 100vh;
+  min-width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 150px 0;
+
+}
+h1{
+  font-size:2.5em;
+  padding:0 30px;
+  width:80%;
+  margin: 40px 40px 0 30px;
+  font-family: "Inter",sans-serif;
+}
+p{
+  font-size:15px;
+  width:70%;
+  padding:0 30px 30px;
+  margin: 20px 30px;
+font-family: "Inter",sans-serif;
+  line-height: 1.5;
+  font-weight: 200;
+}
+.in{
+  color:violet;
+}
+.a{
+font-family: "Inter",sans-serif;
+  font-size: 12px;
+  margin-top: 10px;
+  font-weight: 200;
+  justify-content: space-between;
+  margin-right: 20%;
+}
+.bold{
+  font-size: 2em;
+  font-weight: bold;
+}
+.card{
+  height:446px;
+  width:1080px;
+  display:flex;
+  flex-direction: row;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.text{
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  background-color: #11052e;
+  width: 540px;
+  height: 446px;
+  text-align: left;
+  justify-content: flex-start;
+}
+
+.features{
+  display:flex;
+  flex-direction: row;
+  padding:10px 30px;
+  margin: 60px 30px;
+}
+
+.image{
+background-color: purple;
+width: 540px;
+height: 446px;
+justify-content: flex-end;
+border-top-right-radius: 10px;
+border-bottom-right-radius: 10px;
+}
+
+img{
+  padding:none;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  opacity: 0.5;
+
+}
+/* Media Query tab*/
+@media (max-width: 1080px) and (min-width:701px){
+  main{
+    min-height: 100vh;
+    min-width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 150px 0;
+}
+.card{
+  height:446px;
+  width:700px;
+  display:flex;
+  flex-direction: row;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.text{
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  background-color: #11052e;
+  width: 350px;
+  height: 446px;
+  text-align: left;
+  justify-content: flex-start;
+}
+.image{
+  background-color: purple;
+  width: 350px;
+  justify-content: flex-end;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.image img{
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  opacity: 0.5;
+  height: 446px;
+  width: 350px;
+  object-fit: cover;
+}
+h1{
+  font-size:2em;
+  padding:0 30px;
+  width:80%;
+  margin: 40px 10px 0 10px;
+  font-family: "Inter",sans-serif;
+}
+p{
+  font-size:15px;
+  width:70%;
+  padding:0 20px 30px;
+  margin: 20px 20px;
+font-family: "Inter",sans-serif;
+  line-height: 1.5;
+  font-weight: 200;
+}
+.features{
+  display:flex;
+  flex-direction: row;
+  padding:20px 20px;
+  margin: 20px 20px;
+
+}
+.a{
+  font-family: "Inter",sans-serif;
+    font-size: 12px;
+    margin: 10px 20px 20px 0;
+    font-weight: 200;
+    justify-content: space-between;
+
+}
+}
+
+/* Media Query smallscreen*/
+@media (max-width: 700px) and (min-width:100px){
+  main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px 0;
+    min-height: 100vh;
+    min-width: 100vw;
+}
+.card{
+  height:600px;
+  width:200px;
+  margin: 30px 5px;
+  display:flex;
+  flex-direction: column-reverse;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+.text{
+  width:200px;
+  height:400px;
+  text-align: center;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.image{
+background-color: purple;
+width: 200px;
+height: 165.175px;
+border-top-right-radius: 10px;
+border-top-left-radius: 10px;
+border-bottom-right-radius: 0;
+}
+.image img{
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 0;
+  opacity: 0.5;
+  width: 200px;
+  object-fit: contain;
+}
+h1{
+  font-size:1em;
+  padding:0;
+  width:80%;
+  margin: 20px ;
+  font-family: "Inter",sans-serif;
+}
+p{
+  font-size:10px;
+  width:80%;
+  padding:10px 10px 0;
+  margin: 10px 10px 20px;
+  font-family: "Lexend Deca",sans-serif;
+  font-weight: 200;
+  line-height: 1.5;
+}
+.features{
+  display:flex;
+  flex-direction: column;
+  margin: 10px;
+  font-size: 8px;
+
+}
+.a{
+  justify-content: space-between;
+  margin-right: 0;
+  margin: 10px;
+  font-size: 10px;
+
+}
+}
